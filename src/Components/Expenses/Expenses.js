@@ -2,7 +2,7 @@ import Card from '../Helper-UI/Card';
 import ExpenseItem from './ExpenseItem';
 import './Expenses.css'
 
-function Expenses (props) {
+const Expenses = (props) => {
 
     const { expenses } = props;
     return (
